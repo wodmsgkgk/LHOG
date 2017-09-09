@@ -7,5 +7,7 @@
 주먹 쥐고 아래로 -> 바탕화면			*action/wallpapers-
 주먹 쥐고 왼쪽 -> 뒤로				*action/back-
 주먹 쥐고 오른쪽 -> 앞으로			*action/front-
-엄지 중지 접고 검지 -> 아래 스크롤		*start/downscroll-	*end/downscroll-
-엄지 검지 접고 중지 -> 위 스크롤		*start/upscroll-	*end/upscroll-
+엄지 중지 접기 -> 아래 스크롤 모드		*start/downscroll-	*end/downscroll-
+아래 스크롤 모드일 때 검지 접기 		*info/scrolldown*
+엄지 검지 접고 중지 -> 업 스크롤		*start/upscroll-	*end/upscroll-
+업 스크롤 모드일 때 중지 접기 			*info/scrollup*
