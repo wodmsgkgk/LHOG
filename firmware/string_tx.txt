@@ -1,0 +1,82 @@
+#define F_CPU 16000000UL
+
+#include <avr/io.h>
+#include <util/delay.h>
+#include <stdlib.h>
+#include <stdio.h>
+
+void uart0_init(void);
+void tx_char(char);
+
+int main(void){
+	char string[]="sdf";
+	char *Txdata;
+	uart0_init();
+	void ADC_init();
+
+	while (1){
+		Txdata = string;
+		while(*Txdata)tx_char(*Txdata++);
+	}
+}
+
+void uart0_init(void){
+	UCSR0A = 0x00;
+	UCSR0B = 0x08;
+	UCSR0C = 0x06;
+	UBRR0H = 0;
+	UBRR0L = 103;
+}
+
+void tx_char(char tx_data){
+	while((UCSR0A&0x20)==0);
+	UDR0 = tx_data;
+}
+
+
+
+
+
+
+데이터 보내기 블루투스
+
+참고	http://ityizg.tistory.com/207
+	http://binworld.kr/61	
+
+
+
+#define F_CPU 16000000UL
+
+#include <avr/io.h>
+#include <util/delay.h>
+
+float ADC_F;
+int ADC_I;
+
+
+void main(void){
+	DDRA=0xFF;
+	DDRC=0xFF;
+	DDRD=0xFF;
+	ADMUX=0; ADCSRA=0xE7; //프리런닝 ADC0 한개만 사용 함
+	while(1){
+		_delay_us(250); // 변환시간동안 딜레이
+		ADMUX=0x00;
+		ADC_I=ADCW;
+		ADC_F=(float)ADC_I*5.0/1023.0; //?0V~5.0V?전압으로 변환
+		if(ADC_F>=1.6)PORTA=0xff;//2.2V 이상이면?포트B=0
+		else PORTA = 0;
+		_delay_us(250);
+		ADMUX=0x01;
+		ADC_I=ADCW;
+		ADC_F=(float)ADC_I*5.0/1023.0; //?0V~5.0V?전압으로 변환
+		if(ADC_F>=1.6)PORTC=0xff;//2.2V 이상이면?포트B=0
+		else PORTC = 0;
+		_delay_us(250);
+		ADMUX=0x02;
+		ADC_I=ADCW;
+		ADC_F=(float)ADC_I*5.0/1023.0; //?0V~5.0V?전압으로 변환
+		if(ADC_F>=2)PORTD=0xff;//2.2V 이상이면?포트B=0
+		else PORTD = 0;
+	}
+}
