@@ -1,13 +1,10 @@
-엄지접기 -> 마우스 이동 모드			*start/mousemove-	*end/mousemove-
-이동모드일 때 손 이동 				*info/mousemove/'x변화량','y변화량'-
-검지접기 -> 마우스 왼쪽 다운			*action/leftdown-
-검지펴기 -> 마우스 왼쪽 업			*action/leftup-
-중지접기 -> 마우스 오른쪽 다운			*action/rightdown-
-중지접기 -> 마우스 오른쪽 업			*action/rightup-
-주먹 쥐고 아래로 -> 바탕화면			*action/wallpapers-
-주먹 쥐고 왼쪽 -> 뒤로				*action/back-
-주먹 쥐고 오른쪽 -> 앞으로			*action/front-
-엄지 중지 접기 -> 아래 스크롤 모드		*start/downscroll-	*end/downscroll-
-아래 스크롤 모드일 때 검지 접기 		*info/scrolldown*
-엄지 검지 접고 중지 -> 업 스크롤		*start/upscroll-	*end/upscroll-
-업 스크롤 모드일 때 중지 접기 			*info/scrollup*
+엄지 접은상태로 손 이동 				*mouse/move/'x변화량','y변화량'-
+엄지 접은 상태로 검지접기 -> 마우스 왼쪽 다운		*mouse/leftdown-
+엄지 접은 상태로 검지펴기 -> 마우스 왼쪽 업		*mouse/leftup-
+엄지 접은 상태로 중지접기 -> 마우스 오른쪽 다운		*mouse/rightdown-
+엄지 접은 상태로 중지펴기 -> 마우스 오른쪽 업		*mouse/rightup-
+주먹 쥐고 아래로 -> 바탕화면				*action/wallpapers-
+주먹 쥐고 왼쪽 -> 뒤로					*action/back-
+주먹 쥐고 오른쪽 -> 앞으로				*action/front-
+중지 접고 아래로 -> 스크롤 다운				*scroll/down-
+중지 접고 위로 -> 스크롤 업				*scroll/up-
