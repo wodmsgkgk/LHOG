@@ -1,0 +1,45 @@
+C:\Users\성필\Desktop\Bluetooth_ServerSide\Bluetooth_ServerSide\bin\Debug\Bluetooth_ServerSide.exe
+C:\Users\성필\Desktop\Bluetooth_ServerSide\Bluetooth_ServerSide\bin\Debug\Bluetooth_ServerSide.pdb
+C:\Users\성필\Desktop\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\성필\Desktop\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.Form1.resources
+C:\Users\성필\Desktop\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.Properties.Resources.resources
+C:\Users\성필\Desktop\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\성필\Desktop\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\성필\Desktop\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.exe
+C:\Users\성필\Desktop\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.pdb
+C:\Users\yong\Desktop\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.exe
+C:\Users\yong\Desktop\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.pdb
+C:\Users\yong\Desktop\Bluetooth_ServerSide\Bluetooth_ServerSide\bin\Debug\Bluetooth_ServerSide.exe
+C:\Users\yong\Desktop\Bluetooth_ServerSide\Bluetooth_ServerSide\bin\Debug\Bluetooth_ServerSide.pdb
+C:\Users\yong\Desktop\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\yong\Desktop\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.Form1.resources
+C:\Users\yong\Desktop\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.Properties.Resources.resources
+C:\Users\yong\Desktop\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\yong\Desktop\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\말똥가리\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.exe
+D:\말똥가리\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.pdb
+D:\말똥가리\Bluetooth_ServerSide\Bluetooth_ServerSide\bin\Debug\Bluetooth_ServerSide.exe
+D:\말똥가리\Bluetooth_ServerSide\Bluetooth_ServerSide\bin\Debug\Bluetooth_ServerSide.pdb
+D:\말똥가리\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.csprojResolveAssemblyReference.cache
+D:\말똥가리\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.Form1.resources
+D:\말똥가리\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.Properties.Resources.resources
+D:\말똥가리\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.csproj.GenerateResource.Cache
+C:\Users\mpcl\Desktop\USB Backup\말똥가리\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.exe
+C:\Users\mpcl\Desktop\USB Backup\말똥가리\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.pdb
+C:\Users\mpcl\Desktop\USB Backup\말똥가리\Bluetooth_ServerSide\Bluetooth_ServerSide\bin\Debug\Bluetooth_ServerSide.exe
+C:\Users\mpcl\Desktop\USB Backup\말똥가리\Bluetooth_ServerSide\Bluetooth_ServerSide\bin\Debug\Bluetooth_ServerSide.pdb
+C:\Users\mpcl\Desktop\USB Backup\말똥가리\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mpcl\Desktop\USB Backup\말똥가리\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.Form1.resources
+C:\Users\mpcl\Desktop\USB Backup\말똥가리\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.Properties.Resources.resources
+C:\Users\mpcl\Desktop\USB Backup\말똥가리\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\mpcl\Desktop\USB Backup\말똥가리\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\developer\VisualStudio_project\블루투스로가버렷\Bluetooth_ServerSide\Bluetooth_ServerSide\bin\Debug\Bluetooth_ServerSide.exe
+D:\developer\VisualStudio_project\blutoothexample\Bluetooth_ServerSide\Bluetooth_ServerSide\bin\Debug\Bluetooth_ServerSide.exe
+D:\developer\VisualStudio_project\blutoothexample\Bluetooth_ServerSide\Bluetooth_ServerSide\bin\Debug\Bluetooth_ServerSide.pdb
+D:\developer\VisualStudio_project\blutoothexample\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.csprojResolveAssemblyReference.cache
+D:\developer\VisualStudio_project\blutoothexample\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.Form1.resources
+D:\developer\VisualStudio_project\blutoothexample\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.Properties.Resources.resources
+D:\developer\VisualStudio_project\blutoothexample\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.csproj.GenerateResource.Cache
+D:\developer\VisualStudio_project\blutoothexample\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.csproj.CoreCompileInputs.cache
+D:\developer\VisualStudio_project\blutoothexample\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.exe
+D:\developer\VisualStudio_project\blutoothexample\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.pdb
