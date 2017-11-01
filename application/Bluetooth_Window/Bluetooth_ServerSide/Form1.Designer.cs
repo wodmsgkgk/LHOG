@@ -46,7 +46,7 @@
             // 
             // logsText
             // 
-            this.logsText.Location = new System.Drawing.Point(14, 48);
+            this.logsText.Location = new System.Drawing.Point(12, 48);
             this.logsText.Multiline = true;
             this.logsText.Name = "logsText";
             this.logsText.ReadOnly = true;
@@ -89,6 +89,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Server";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -258,6 +258,11 @@ namespace Bluetooth_ServerSide
             messageText.Clear();
             textBox1.Clear();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
