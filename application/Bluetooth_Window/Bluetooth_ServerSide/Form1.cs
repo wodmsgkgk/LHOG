@@ -39,7 +39,7 @@ namespace Bluetooth_ServerSide
             if (BluetoothRadio.IsSupported)
             {
 
-                UpdateLogText("Bluetooth Supported! by jaeeun");
+                UpdateLogText("Bluetooth Supported! by jaeeun1");
                 UpdateLogText("—————————–");
                 
                 //getting device information
@@ -123,7 +123,10 @@ namespace Bluetooth_ServerSide
                             retrievedMsg += Convert.ToChar(bytes[i]);
 
                         }
-
+                        if (retrievedMsg.Contains("*action/wallpapers-"))
+                        {
+                            sendMessage("Msg wallpapers!");
+                        }
                         UpdateLogTextFromThread(btClient.RemoteMachineName + " : " + retrievedMsg);
                         UpdateLogTextFromThread("");
 
