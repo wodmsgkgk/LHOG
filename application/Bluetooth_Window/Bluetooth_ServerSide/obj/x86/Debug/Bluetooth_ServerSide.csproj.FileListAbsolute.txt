@@ -43,3 +43,11 @@ D:\developer\VisualStudio_project\blutoothexample\Bluetooth_ServerSide\Bluetooth
 D:\developer\VisualStudio_project\blutoothexample\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.csproj.CoreCompileInputs.cache
 D:\developer\VisualStudio_project\blutoothexample\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.exe
 D:\developer\VisualStudio_project\blutoothexample\Bluetooth_ServerSide\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.pdb
+F:\Git\data\LHOG\application\Bluetooth_Window\Bluetooth_ServerSide\bin\Debug\Bluetooth_ServerSide.exe
+F:\Git\data\LHOG\application\Bluetooth_Window\Bluetooth_ServerSide\bin\Debug\Bluetooth_ServerSide.pdb
+F:\Git\data\LHOG\application\Bluetooth_Window\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.csprojResolveAssemblyReference.cache
+F:\Git\data\LHOG\application\Bluetooth_Window\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.Form1.resources
+F:\Git\data\LHOG\application\Bluetooth_Window\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.Properties.Resources.resources
+F:\Git\data\LHOG\application\Bluetooth_Window\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.csproj.GenerateResource.Cache
+F:\Git\data\LHOG\application\Bluetooth_Window\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.exe
+F:\Git\data\LHOG\application\Bluetooth_Window\Bluetooth_ServerSide\obj\x86\Debug\Bluetooth_ServerSide.pdb

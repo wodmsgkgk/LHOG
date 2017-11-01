@@ -1,0 +1,104 @@
+	int count = 2000 ;
+	int x,y;
+	switch(flag){
+		case 1:
+		while(count){
+			flex_stay2();
+			if(ADC_I<=420){//중지를 구부렸을 때
+				ctxt = "*scroll/down-";
+				tx_string(ctxt);
+				count = 200;
+			}
+			else if(ADC_I>606){
+				ctxt = "*scroll/up-";
+				tx_string(ctxt);
+				count = 200;
+			}
+			count--;
+		}
+		break;
+		
+		case 4:
+		triger_init();
+		while(count){
+			gyr_x_value();
+			gyr_y_value();
+			if((gyr_cx-gyr_x)>60){//검지 중지를 구부렸을 때
+				ctxt = "*action/wallpapers-";
+				tx_string(ctxt);
+				_delay_ms(1000);
+				count = 1;
+			}
+			else if((gyr_cy-gyr_y)>60){
+				ctxt = "*action/back-";
+				tx_string(ctxt);
+				_delay_ms(1000);
+				count = 1;
+			}
+			else if((gyr_y-gyr_cy)>60){
+				ctxt = "*action/front-";
+				tx_string(ctxt);
+				_delay_ms(1000);
+				count = 1;
+			}
+			count--;
+		}
+		break;
+		
+		case 5:
+		triger_init();
+		while(ADC_I<=420){
+			gyr_x_value();
+			gyr_y_value();
+			x = gyr_cx-gyr_x;
+			y = gyr_cy-gyr_y;
+			sprintf((char*)val,"*mouse/move/'%d','%d'-",x,y);
+			ctxt = val;
+			tx_string(ctxt);
+			flex_stay2();
+			if(ADC_I<=420){//엄지를 구부렸을 때
+				ctxt = "*mouse/leftdown-";
+				tx_string(ctxt);
+				_delay_ms(100);
+				while (ADC_I<=420)
+				{
+					gyr_x_value();
+					gyr_y_value();
+					x = gyr_cx-gyr_x;
+					y = gyr_cy-gyr_y;
+					sprintf((char*)val,"*mouse/move/'%d','%d'-",x,y);
+					ctxt = val;
+					tx_string(ctxt);
+					flex_stay2();
+				}
+				ctxt = "*mouse/leftup-";
+				tx_string(ctxt);
+			}
+			flex_stay3();
+			if(ADC_I<=420){
+				ctxt = "*mouse/rightdown-";
+				tx_string(ctxt);
+				_delay_ms(100);
+				while (ADC_I<=420)
+				{
+					gyr_x_value();
+					gyr_y_value();
+					x = gyr_cx-gyr_x;
+					y = gyr_cy-gyr_y;
+					sprintf((char*)val,"*mouse/move/'%d','%d'-",x,y);
+					ctxt = val;
+					tx_string(ctxt);
+					flex_stay3();
+				}
+				ctxt = "*mouse/rightup-";
+				tx_string(ctxt);
+			}
+			flex_stay1();
+		}
+		break;
+		
+		default:
+		ctxt = "stop";
+		tx_string(ctxt);
+		break;
+	}
